@@ -13,14 +13,15 @@
     .banner-container {
       display: flex;
       justify-content: space-between;
-      margin: 5px auto; /* Adjusted margin */
+      margin: 20px auto; /* Adjusted margin */
       width: 90%;
     }
     .banner {
-      width: 30%;
+      width: calc(50% - 10px); /* Adjusted width */
       padding: 20px;
       text-align: center;
       border: 2px solid #333;
+      box-sizing: border-box; /* Ensure padding is included in width */
     }
     .turn-on-banner {
       background-color: #E4F1EE;
